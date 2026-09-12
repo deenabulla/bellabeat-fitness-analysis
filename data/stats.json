@@ -1,0 +1,65 @@
+{
+  "raw": {
+    "daily_rows": 940,
+    "daily_users": 33,
+    "sleep_rows": 413,
+    "sleep_users": 24,
+    "hourly_rows": 22099
+  },
+  "clean": {
+    "dup_daily": 0,
+    "dup_sleep": 0,
+    "nonwear_days_removed": 73,
+    "nonwear_users_affected": 15,
+    "daily_rows": 867,
+    "daily_users": 33
+  },
+  "key": {
+    "avg_steps": 8281.0,
+    "median_steps": 7990.0,
+    "avg_calories": 2353.0,
+    "avg_active_min": 246.7,
+    "avg_sedentary_min": 953.5,
+    "avg_sedentary_hrs": 15.89,
+    "avg_sleep_min": 419.2,
+    "avg_sleep_hrs": 6.99,
+    "avg_time_in_bed_min": 458.5,
+    "avg_sleep_efficiency": 0.9165,
+    "sleep_users": 24,
+    "pct_below_7500_steps": 46.3,
+    "pct_above_10000_steps": 34.9,
+    "steps_cal_corr": 0.569,
+    "sleep_activity_rows": 410,
+    "sleep_activity_users": 24,
+    "steps_sleep_corr": -0.19,
+    "active_sleep_corr": -0.069,
+    "sedentary_pct_of_day": 66.2,
+    "active_pct_of_day": 17.1
+  },
+  "dow_avg_steps": {
+    "Monday": 8488.2,
+    "Tuesday": 8884.9,
+    "Wednesday": 8157.6,
+    "Thursday": 8064.1,
+    "Friday": 7820.6,
+    "Saturday": 8868.1,
+    "Sunday": 7626.6
+  },
+  "dow_max": "Tuesday",
+  "dow_min": "Sunday",
+  "peak_hour": 18,
+  "peak_hour_avg": 599.2,
+  "overnight_avg": 20.3,
+  "usage_segments": {
+    "High (21-31 days)": 25,
+    "Moderate (11-20 days)": 7,
+    "Low (1-10 days)": 1
+  },
+  "avg_days_used": 26.3,
+  "user_levels": {
+    "Fairly active (7.5k-10k)": 10,
+    "Lightly active (5k-7.5k)": 9,
+    "Very active (10k+)": 7,
+    "Sedentary (<5k)": 7
+  }
+}
